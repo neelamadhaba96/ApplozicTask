@@ -7,10 +7,6 @@ import org.apache.commons.mail.SimpleEmail;
 
 public class sentEmail2 {
 
-	public static void sendEmail() throws EmailException {
-		sendemailMethod();
-	}
-
 	public static void sendemailMethod() throws EmailException {
 		Email email = new SimpleEmail();
 		email.setHostName("smtp.gmail.com");
