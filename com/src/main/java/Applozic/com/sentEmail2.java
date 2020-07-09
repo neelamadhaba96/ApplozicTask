@@ -11,7 +11,7 @@ public class sentEmail2 {
 		Email email = new SimpleEmail();
 		email.setHostName("smtp.gmail.com");
 		email.setSmtpPort(587);
-		email.setAuthenticator(new DefaultAuthenticator("neelamadhaba96@gmail.com", "neela@321"));
+		email.setAuthenticator(new DefaultAuthenticator("neela11@gmail.com", "Password@321"));
 		email.setSSLOnConnect(true);
 		email.setFrom("neelamadhaba96@gmail.com");
 		email.setSubject("FAQ Count report");
